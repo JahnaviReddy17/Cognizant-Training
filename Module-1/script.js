@@ -108,6 +108,7 @@ function clearPreferences() {
 
     localStorage.clear();
     sessionStorage.clear();
+    document.getElementById("locationResult").innerHTML = "";
 
     alert("Preferences cleared");
 }
